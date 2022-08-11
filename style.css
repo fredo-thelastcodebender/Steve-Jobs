@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #000;
+}
+
+body {
+  font-family: 'Alegreya', serif;
+  text-align: center;
+}
+
+.header {
+  color: #fff;
+  line-height: 50px;
+}
+.header h1 {
+  font-size: 40px;
+}
+.header p {
+  font-size: 20px;
+}
+
+#av-img {
+  display: inline-block;
+  width: 80px;
+}
+
+.play-icon {
+  color: white;
+  font-size: 40px;
+}
+
+.bio {
+  height: 4rem;
+  color: #fff;
+
+}
+
+.bio img{
+  width: 100%;
+  margin-top: 30px;
+}
+
+.bio h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  text-decoration: underline;
+  text-decoration-color: #b2b2b4;
+}
+
+.bio p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.bio hr {
+  width: 80%;
+  margin:25px 0 0 10%;
+
+}
+
+#footer {
+  font-size: 18px;
+  margin-top: 25px;
+}
+#footer i {
+  color: #ff0000;
+}
+
+
+
+
+@media (max-width:800px) {
+
+  .bio p {
+    padding: 0 25px 0 25px;
+    margin-top: 15px;
+  }
+
+}
