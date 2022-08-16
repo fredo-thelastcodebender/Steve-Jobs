@@ -1,83 +1,294 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-
-  background-color: #000;
+  padding: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
-body {
-  font-family: 'Alegreya', serif;
-  text-align: center;
+.navbar {
+   width: 100%;
+   height: 70px ;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+
 }
 
-.header {
-  color: #fff;
-  line-height: 50px;
-}
-.header h1 {
-  font-size: 40px;
-}
-.header p {
-  font-size: 20px;
+.navbar ul {
+    display: flex;
+
+
 }
 
-#av-img {
+.navbar ul li {
+  list-style: none;
+  margin: 15px 40px 0 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+.navbar ul li:hover {
+  color: #f17125;
+}
+
+#contact:hover {
+  display: none;
+}
+
+p {
+  margin-top: auto;
+  font-size: 14px;
+  font-weight:  normal;
+}
+
+.hr-1 {
+  margin-top: 16.5px;
+  width: 23rem;
+  margin-right: -2px;
+
+}
+
+.hr-2 {
+  width: 23rem;
+  margin-top: 16.5px;
+  margin-left: -42px
+}
+img {
+  width: 7rem;
+  height: auto;
+  margin-top: -45px;
+}
+
+
+.underline {
+  display: block;
+  width: 4.5rem;
+  height: 5px;
+  background-color: #f17125;
+
+}
+
+.contact-form {
+  display: flex;
+  background-color: #d8d5cf;
+  margin-top: 2rem;
+    height: 35rem;
+}
+.form {
+
+
+
+
+  color: #555351;
+  font-family: sans-serif;
+}
+
+h1 {
+  padding-top: 39px;
+  margin-left: 135px;
+  font-size: 25px;
+}
+
+.form p {
+  margin-left: 135px;
+  font-size: 16px;
+}
+
+form {
+  font-size: 16px;
+  margin-left: 135px;
+  width: 80vw;
+
+}
+fieldset {
+  border: none;
+
+
+}
+
+.form-label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input, textarea{
+  display: block;
+  font-size: 14px;
+  width: 40%;
+  height: 32px;
+  margin: 10px 0 0 0;
+  border: none;
+
+
+}
+textarea {
+  height: 60px;
+}
+
+button {
+  width: 4.5rem;
+  height: 2.5rem;
+  margin-top: 15px;
+  background-color: #f17125;
+  border-radius: 5px;
+  box-shadow: 1.5px 1.5px #555351;
+  font-size: 14px;
+  font-family: sans-serif;
+
+}
+
+
+.contact-info {
+  display: block;
+  margin: 4rem 0 0 -25rem;
+}
+
+.info-label {
+  color: #f17125;
+}
+
+.contact-info p, ul{
+  text-decoration: none;
+  font-family: sans-serif;
+  margin: 15px 0 3rem 0;
+}
+
+.contact-info p a {
+  text-decoration: none;
+  color: #555351;
+  transition: .1s;
+}
+
+.contact-info p a:hover {
+
+  color: #555351;
+  border-bottom: 3px solid #f17125;
+}
+
+
+
+ul li{
   display: inline-block;
-  width: 80px;
-}
-
-.play-icon {
-  color: white;
-  font-size: 40px;
-}
-
-.bio {
-  height: 4rem;
-  color: #fff;
+  list-style: none;
 
 }
 
-.bio img{
-  width: 100%;
-  margin-top: 30px;
+ul li a {
+  text-decoration: none;
+  color: #555351;
+  margin-right: 4px;
 }
 
-.bio h1 {
-  font-size: 40px;
-  margin-top: 10px;
-  text-decoration: underline;
-  text-decoration-color: #b2b2b4;
-}
-
-.bio p {
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.bio hr {
-  width: 80%;
-  margin:25px 0 0 10%;
-
-}
-
-#footer {
-  font-size: 18px;
-  margin-top: 25px;
-}
-#footer i {
-  color: #ff0000;
+#info-hr {
+  width: 28rem;
 }
 
 
+footer {
+  display: flex;
+  justify-content: center;
 
+}
 
-@media (max-width:800px) {
+footer ul {
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    margin-left: -2rem;
 
-  .bio p {
-    padding: 0 25px 0 25px;
-    margin-top: 15px;
+}
+
+footer ul li a{
+  margin-right: 12px;
+}
+
+footer ul li a:hover {
+
+color: #f17125;
+
+}
+
+.social-icons {
+  margin-left: 12rem;
+}
+
+.social-icons ul li  {
+  margin-right: 15px;
+
+}
+
+ .text {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0 0 -35rem;
+}
+
+#heart-icon:hover {
+  color: red;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+     width: 100%;
+     height: 70px ;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+
   }
 
+  .navbar ul {
+      display: flex;
+
+
+  }
+
+  .navbar ul li {
+    list-style: none;
+    margin: 15px 18px 0 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+  }
+
+  .navbar ul li:hover {
+    color: #f17125;
+  }
+
+
+  .navbar ul li p {
+  display: none;
+  }
+
+  hr {
+    display: none;
+  }
+  }
+  img {
+    width: 5rem;
+    height: auto;
+    margin-top: -26px;
+  }
+
+
+  .underline {
+    display: block;
+    width: 3.5rem;
+    height: 5px;
+    background-color: #f17125;
+
+  }
+
+  .contact-form {
+    height: 80rem;
+    display: block;
+  }
+
+ h1 {
+   display: flex;
+   justify-content: center;
+ }
+ .form p  {
+   margin-left: 0;
+ }
 }
